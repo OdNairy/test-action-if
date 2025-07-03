@@ -7,7 +7,7 @@ on:
 jobs:
   test-if:
     if: >
-          github.actor == 'OdNairy' &&
+          github.actor == 'OdNairy1' &&
           github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
